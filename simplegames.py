@@ -17,7 +17,7 @@ email, password = s
 
 class NoneGame:
     @staticmethod
-    def game(_, msg, _):
+    def game(_a, msg, _b):
         msg.message.reply("No game loaded!")
 
 state = {
