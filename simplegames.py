@@ -15,9 +15,9 @@ with open("D:/CREDENTIALS") as f: # Change the path to link your credential file
     s = f.read().split()
 email, password = s
 
-class NoneGame:
+class NoneGame
     @staticmethod
-    def game(msg, _):
+    def game(_, msg, _):
         msg.message.reply("No game loaded!")
 
 state = {
