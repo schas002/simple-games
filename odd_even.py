@@ -16,3 +16,4 @@ def game(state, msg, msc):
     else:
         msg.message.reply("You lose.")
     state["last"] = msg.user.name
+HELP = "Enter 'odd' or 'even'."
