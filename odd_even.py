@@ -11,6 +11,7 @@ def game(state, msg, msc):
         isodd = {"odd":True,"even":False}[msc.casefold()]
     except KeyError:
         msg.message.reply("I don't understand!")
+        return
     if random.rand_int(0, 1):
         msg.message.reply("You win!")
     else:
