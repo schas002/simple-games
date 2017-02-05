@@ -6,6 +6,7 @@ import re
 import vote
 import nim
 import guess_number
+import odd_even
 
 SMSG = "Hello! I am the game bot!"
 HANDLING = True
@@ -29,6 +30,7 @@ games = {
 
     "nim": nim,
     "guess_number": guess_number,
+    "odd_even": odd_even
 }
 
 def getreply(msg, mgc):
