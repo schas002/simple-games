@@ -11,7 +11,7 @@ def display_nim(rows):
 def init(state, rows="3", stones="7", *args):
     state["rows"] = []
     for i in range(int(rows)):
-        state["rows"].append(random.randint(1, int(stones) + 1))
+        state["rows"].append(random.randint(1, int(stones)))
     state["last"] = None
     state["room"].send_message(display_nim(state["rows"]))
 def game(state, msg, mgc):
